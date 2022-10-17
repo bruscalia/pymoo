@@ -4,7 +4,7 @@
 # Commented because of numba dependency
 from pymoo.algorithms.moo.ctaea import CTAEA
 from pymoo.algorithms.moo.dnsga2 import DNSGA2
-from pymoo.algorithms.moo.gde3 import GDE3, GDE32NN, GDE3MNN
+from pymoo.algorithms.moo.gde3 import GDE3, GDE32NN, GDE3MNN, GDE3PCD
 from pymoo.algorithms.moo.moead import MOEAD
 from pymoo.algorithms.moo.nsde import NSDE
 from pymoo.algorithms.moo.nsder import NSDER
