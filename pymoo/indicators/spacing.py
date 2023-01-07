@@ -19,10 +19,13 @@ class SpacingIndicator(Indicator):
         ----------
         pf : 2d array, optional
             Pareto front, by default None
+        
         zero_to_one : bool, optional
             Whether or not the objective values should be normalized in calculations, by default False
+        
         ideal : 1d array, optional
             Ideal point, by default None
+        
         nadir : 1d array, optional
             Nadir point, by default None
         """
