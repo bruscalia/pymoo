@@ -15,6 +15,18 @@ class Indicator(PreNormalization):
         return self.do(F, *args, **kwargs)
 
     def do(self, F, *args, **kwargs):
+        """Calculate indicator from pareto front
+
+        Parameters
+        ----------
+        F : numpy.array (n_samples, n_obj)
+            Pareto front
+
+        Returns
+        -------
+        Any
+            Indicator
+        """
 
         # if it is a 1d array
         if F.ndim == 1:
